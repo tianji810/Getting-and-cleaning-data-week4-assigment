@@ -1,9 +1,9 @@
-#Tidy data set description
-###Tidy data contains 35 rows and 81 columns. Each row has averaged variables for each subject and each activity.
+# Tidy data set description
+### Tidy data contains 35 rows and 81 columns. Each row has averaged variables for each subject and each activity.
 6 activity types: walking, walking_upstairs, walking_downstairs, sitting, standing, laying
 Only mean and standard deviation measurements in the original dataset were kept.
 
-###There are 81 variables in the tidy data set
+### There are 81 variables in the tidy data set
 [1] "subjectId"                       "activityType"                    "tBodyAcc-mean()-X"              
 [4] "tBodyAcc-mean()-Y"               "tBodyAcc-mean()-Z"               "tGravityAcc-mean()-X"           
 [7] "tGravityAcc-mean()-Y"            "tGravityAcc-mean()-Z"            "tBodyAccJerk-mean()-X"          
@@ -32,7 +32,7 @@ Only mean and standard deviation measurements in the original dataset were kept.
 [76] "fBodyGyro-std()-Y"               "fBodyGyro-std()-Z"               "fBodyAccMag-std()"              
 [79] "fBodyBodyAccJerkMag-std()"       "fBodyBodyGyroMag-std()"          "fBodyBodyGyroJerkMag-std()" 
 
-###Variable units
+### Variable units
 subjectId is integer type. activityType is factor type. All the other variables are numeric type.
 
 
